@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Exo', sans-serif;
+
+}
+
+section {
+    height: 500px;
+    background-color:  #FFFFFF;
+    border: 1px solid yellow;
+}
+
+.hero {
+    /* 5E17EB */
+    background-color: #1C1D25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #5E17EB;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
