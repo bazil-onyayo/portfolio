@@ -87,4 +87,9 @@ p {
 .logo-text {
     font-family: 'Sirin Stencil', cursive;
     font-size: 5rem;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
 }
