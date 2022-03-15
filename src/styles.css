@@ -5,7 +5,6 @@ body {
 }
 
 section {
-    height: 500px;
     background-color:  #FFFFFF;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -44,6 +43,10 @@ li {
 h1 {
     font-size: 90px;
     margin: 0;
+}
+
+h2 {
+    font-size: 55px;
 }
 
 p {
@@ -92,4 +95,16 @@ p {
 
 .social {
     margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    padding: 10px;
+    /* filter: grayscale(100%); */
 }
