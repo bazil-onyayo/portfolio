@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles.css">
+    <script src="https://kit.fontawesome.com/4f60ac9cf3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -13,17 +14,20 @@
             <div>
                 <span class="logo-text">OB</span>
             </div>
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Basil Onyayo</h1>
                 <p>Full Stack Developer</p>
-                <div class="button">About me</div>
+                <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials">
                 <div>
@@ -44,17 +48,52 @@
             </div>
         </div>
     </section>
-    <section class="sub-section">
+    <section id="about-me" class="sub-section">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello. My name is Basil Onyayo. I am a software developer with a passion for preaching the Gospel</p>
         </div>
         <div class="headshot-container">
-            <img class="headshot" src="/src/onyayo-basil-headshot.png" alt="basil onyayo headshot">
+            <img class="headshot" src="/src/images/onyayo-basil-headshot.png" alt="basil onyayo headshot">
         </div>
     </section>
-    <section class="subsection"></section>
-    <footer></footer>
+    <section id="projects" class="sub-section-alternative">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="/src/images/project-image-1.svg" class="project-image" alt="Project Image">
+                <h3>Project One</h3>
+                <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, numquam!</p>
+                <hr>
+                <p class="sub-text"><a class="project-link" href="https://github.com/bazil-onyayo/">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img src="/src/images/project-image-2.svg" class="project-image" alt="Project Image">
+                <h3>Project Two</h3>
+                <p class="sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, eos?</p>
+                <hr>
+                <p class="sub-text"><a class="project-link" href="https://github.com/bazil-onyayo/">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img src="/src/images/project-image-3.svg" class="project-image" alt="Project Image">
+                <h3>Project Three</h3>
+                <p class="sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, ea.</p>
+                <hr>
+                <p class="sub-text"><a class="project-link" href="https://github.com/bazil-onyayo/">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img src="/src/images/project-image-4.svg" class="project-image" alt="Project Image">
+                <h3>Project Four</h3>
+                <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, earum?</p>
+                <hr>
+                <p class="sub-text"><a class="project-link" href="https://github.com/bazil-onyayo/">View here</a></p>
+            </div>
+        </div>
+    </section>
+    <footer id="#contact-me">
+        <h2>Contact</h2>
+        <p>Bazilonyayo@gmail.com</p>
+    </footer>
     <script src="/src/app.js"></script>
 </body>
 </html>
