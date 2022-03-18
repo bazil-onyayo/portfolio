@@ -6,6 +6,7 @@ html {
 
 body {
     font-family: 'Exo', sans-serif;
+    margin: 0px;
 }
 
 section {
@@ -146,6 +147,15 @@ a:hover {
     flex-direction: column;
     /* align-items: center; */
     text-align: center;
+    padding-bottom: 60px;
+}
+
+.information h2 {
+    margin-top: 5px;
+}
+
+.information p {
+    padding-left: 10px;
 }
 
 .headshot {
@@ -167,7 +177,7 @@ a:hover {
 }
 
 .project-card {
-    /* width: 300px; */
+    width: 300px;
     height: 400px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     margin-inline:  10px;
@@ -220,10 +230,16 @@ hr {
         display: none;
         background-color: #333542;
         margin: 0px;
+        padding-bottom: 10px;
+
     }
 
     ul.show {
         display: block;
+    }
+
+    ul li a:hover {
+        background-color: #5E17EB;
     }
 
     nav {
@@ -234,5 +250,48 @@ hr {
 
     .logo-text {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .sub-section:nth-child(2) {
+        flex-wrap: wrap;
+        padding-inline: 20px;
+        text-align: center;
+    }
+
+    .headshot {
+        padding-top: 30px;
+    }
+    
+    .information h2 {
+        margin-bottom: 20px;
+    }
+
+    .hero-area {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-text {
+        margin-inline: auto;
+        margin-bottom: 25px;
+    }
+
+    .hero-text div.button {
+        margin: 20px auto;
+
+    }
+
+    .socials {
+        display: flex;
+        padding-bottom: 80px;
+        align-self: flex-start;
+        margin: -25px auto;
+
     }
 }
